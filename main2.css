@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  background-color: aqua;
+  height: 60px;
+}
+.rew3 {
+  display: flex;
+  list-style: none;
+  padding: 5px;
+  margin: 0 auto;
+  padding-top: 10px;
+  justify-content: space-around;
+}
+
+.rew3 a {
+  text-decoration: none;
+  padding: 10px 20px;
+  color: rgb(7, 5, 5);
+  align-items: center;
+}
+.rew3 {
+  color: rgb(2, 7, 5);
+}
+.rew3 a:hover {
+  background-color: rgb(20, 20, 20);
+  color: beige;
+}
+main {
+  background-color: rgb(207, 241, 213);
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+.rw {
+  background-color: rgb(198, 150, 221);
+  width: 90%;
+  height: 350px;
+  padding: 0;
+  margin: 0;
+}
+.rew {
+  background-color: rgb(56, 206, 119);
+  height: 25%;
+  height: 350px;
+  padding: 0;
+  margin: 0;
+}
+h1 {
+  border: 2px solid rgb(236, 154, 154);
+  background-color: beige;
+  padding: 0;
+  margin: 0;
+  font-size: 20px;
+}
+footer {
+  background-color: rgb(143, 116, 116);
+  height: 60px;
+
+  border: 2px solid rgb(173, 101, 101);
+}
+footer p {
+  justify-content: space-between;
+  align-items: center;
+}
+.rew {
+  background-color: rgb(245, 159, 233);
+  padding: 0;
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  float: right;
+  border: 2px solid rgb(115, 235, 104);
+}
+
+.rew a {
+  color: rgb(40, 5, 197);
+  text-align: center;
+
+  font-size: 20px;
+  padding: 10px 20px;
+  width: 100%;
+  align-items: center;
+}
+.rew a:hover {
+  background-color: brown;
+  color: rgb(245, 221, 6);
+}
+
